@@ -13,7 +13,7 @@ func main() {
 	for i := 0; i < 30; i++ {
 		array[i] = rand.Intn(100)
 	}
-	fmt.Println("Unsorted Array: ", array)
+	// fmt.Println("Unsorted Array: ", array)
 	faster := Sort(array)
 	fmt.Println(faster)
 
